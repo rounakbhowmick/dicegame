@@ -27,7 +27,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     {
       roundScore += dice;
       document.querySelector('#current-' + activePlayer).textContent=roundScore;
-      document.querySelector('.dice').style.display='none';
+      
     }
     else{
           nextPlayer();
